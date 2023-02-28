@@ -1,8 +1,12 @@
 import React from 'react'
+import './App.css'
+import Project from './Project/Project'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='app'>
+      <Project />
+    </div>
   )
 }
 
